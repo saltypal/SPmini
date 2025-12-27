@@ -1,0 +1,11 @@
+.text-pressure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+.text-pressure-char {
+    will-change: font-variation-settings, font-stretch;
+}
