@@ -31,6 +31,7 @@ function App() {
           <TextPressure
             text="Satya's place"
             strokeColor="#60a5fa"
+            textColor="#ffffff"
             fontFamily="Bricolage Grotesque"
             fontSize="clamp(3rem, 12vw, 10rem)"
           />

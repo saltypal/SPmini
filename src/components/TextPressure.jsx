@@ -8,6 +8,7 @@ const TextPressure = ({
     fontWeight = 400,
     fontSize = 'clamp(3rem, 10vw, 8rem)',
     strokeColor = '#3b82f6',
+    textColor = '#ffffff',
     width = true,
     className = ''
 }) => {
@@ -69,8 +70,8 @@ const TextPressure = ({
                 const maxDistance = 200;
                 const minWeight = 200;
                 const maxWeight = 900;
-                const minWidth = 75;
-                const maxWidth = 125;
+                const minWidth = 85;
+                const maxWidth = 150;
 
                 let weight = minWeight;
                 let charWidth = 100;
@@ -105,7 +106,7 @@ const TextPressure = ({
                 fontWeight,
                 fontSize,
                 WebkitTextStroke: `1px ${strokeColor}`,
-                color: 'transparent',
+                color: textColor,
                 cursor: 'default'
             }}
         >
